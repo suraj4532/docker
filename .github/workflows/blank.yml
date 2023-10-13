@@ -3,8 +3,7 @@ name: CI/CD with PHPUnit and Code Coverage
 on:
   push:
     branches:
-      - main
-
+      - suraj
 jobs:
   build:
     runs-on: ubuntu-latest
