@@ -17,9 +17,6 @@ jobs:
         with:
           php-version: '7.4'
 
-      - name: Install Composer dependencies
-        run: composer install
-
       - name: Run PHPUnit tests with code coverage
         run: vendor/bin/phpunit --coverage-text --colors=never
 
